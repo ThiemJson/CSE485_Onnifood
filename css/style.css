@@ -25,6 +25,7 @@
   color: rgba(255, 255, 255, 0.55);
   font-size: 70px;
   margin-bottom: 10px;
+  position: relative;  
 }
 
 .hero-text-box > h1:hover {
@@ -40,25 +41,25 @@
   border-radius: 25px;
   font-size: 20px;
   margin: 5px 10px;
-  border: 1px solid rgba(233, 141, 3,0.9);
+  border: 1px solid rgba(233, 141, 3, 0.9);
 }
 
 .btn-full {
-  background-color: rgba(233, 141, 3,0.9);
+  background-color: rgba(233, 141, 3, 0.9);
   color: white;
 }
 
 .btn-ghost {
-  color: rgba(233, 141, 3,0.9);
+  color: rgba(233, 141, 3, 0.9);
 }
 
-.btn-ghost:hover{
+.btn-ghost:hover {
   animation-duration: 1000ms;
   color: white;
-  background-color: rgba(233, 141, 3,0.9);
+  background-color: rgba(233, 141, 3, 0.9);
 }
 
-.btn-full:hover{
-  background-color:  rgb(253, 152, 0);
+.btn-full:hover {
+  background-color: rgb(253, 152, 0);
   animation-duration: 300ms;
 }
