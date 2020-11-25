@@ -14,7 +14,13 @@
     <header class="header">
         <nav>
             <div class="row">
-                
+                <img src="images/logo-white.png" alt="Onnifood" class="logo">
+                <ul class="main-nav">
+                    <li><a href="#">Food delivery</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Our cities</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -23,6 +29,7 @@
             <a href="#" class="btn btn-full">I'm hungry</a>
             <a href="" class="btn btn-ghost">Show me more</a>
         </div>
+        
     </header>
     <section class="section"></section>
     <footer class="footer"></footer>

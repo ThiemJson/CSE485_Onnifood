@@ -5,6 +5,7 @@
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -27,7 +28,6 @@
   left: 50%;
   transform: translate(-70%, -50%);
   letter-spacing: 3px;
-  font-family: "Lato", sans-serif;
   font-weight: normal;
   font-style: normal;
   position: absolute;
@@ -42,7 +42,6 @@
   position: relative;
   text-transform: uppercase;
 }
-
 
 /* ---------------------------------------------------------------------------------- */
 /* BUTTON */
@@ -60,19 +59,66 @@
 .btn-full {
   background-color: rgba(233, 141, 3, 0.9);
   color: rgb(255, 255, 255);
+  transition: 0.3s;
 }
 
 .btn-ghost {
   color: rgba(233, 141, 3, 0.9);
+  transition: 0.3s;
 }
 
 .btn-ghost:hover {
-  animation-duration: 1000ms;
   color: white;
   background-color: rgba(233, 141, 3, 0.9);
+  transition: 0.3s;
 }
 
 .btn-full:hover {
   background-color: rgb(253, 152, 0);
-  animation-duration: 1000ms;
+  transition: 0.3s;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* LOGO */
+/* ---------------------------------------------------------------------------------- */
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin: 40px;
+  transition: 0.4s;
+}
+
+.logo:hover {
+  transform: scale(1.3);
+  transition: 0.4s;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+  margin-right: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 9px 0px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid rgb(253, 152, 0);
 }
