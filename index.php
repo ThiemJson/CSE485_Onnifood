@@ -12,10 +12,16 @@
 
 <body>
     <header class="header">
+        <nav>
+            <div class="row">
+                
+            </div>
+        </nav>
         <div class="hero-text-box">
-            <h1>Goodbye junk food. <br> Hello heathy food.</h1>
+            <h1>Goodbye junk food.</h1>
+            <h1>Hello super healthy meals.</h1>
             <a href="#" class="btn btn-full">I'm hungry</a>
-            <a href="" class="btn btn-ghost">Show me</a>
+            <a href="" class="btn btn-ghost">Show me more</a>
         </div>
     </header>
     <section class="section"></section>

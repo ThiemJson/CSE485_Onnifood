@@ -1,14 +1,25 @@
+/* ---------------------------------------------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------------------------------------------- */
 * {
   margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* ---------------------------------------------------------------------------------- */
+/* REUSEABLE COMPONENT */
+/* ---------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------------------------------------------- */
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url("../images/hero.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
-  width: auto;
 }
 .hero-text-box {
   position: absolute;
@@ -19,34 +30,36 @@
   font-family: "Lato", sans-serif;
   font-weight: normal;
   font-style: normal;
+  position: absolute;
+  width: max-content;
 }
 
+/* ----------- HEADINGS ----------- */
 .hero-text-box > h1 {
-  color: rgba(255, 255, 255, 0.55);
-  font-size: 70px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 50px;
   margin-bottom: 10px;
-  position: relative;  
+  position: relative;
+  text-transform: uppercase;
 }
 
-.hero-text-box > h1:hover {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 71px;
-  animation-duration: 300ms;
-}
 
+/* ---------------------------------------------------------------------------------- */
+/* BUTTON */
+/* ---------------------------------------------------------------------------------- */
 .btn {
   text-decoration: none;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 25px;
   font-size: 20px;
-  margin: 5px 10px;
+  margin: 5px 0px;
   border: 1px solid rgba(233, 141, 3, 0.9);
 }
 
 .btn-full {
   background-color: rgba(233, 141, 3, 0.9);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .btn-ghost {
@@ -61,5 +74,5 @@
 
 .btn-full:hover {
   background-color: rgb(253, 152, 0);
-  animation-duration: 300ms;
+  animation-duration: 1000ms;
 }
