@@ -867,9 +867,32 @@ section {
 .meal-photo {
   width: 100%;
   margin: 0;
+  overflow: hidden;
+  background-color: #000;
 }
 
 .meal-photo img {
   width: 100%;
   height: auto;
+  transition-duration: 0.5s;
+  transform: scale(1.2);
+  opacity: 0.6;
+  /* filter: brightness(0.35); */
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition-duration: 0.5s;
+  /* filter: brightness(1); */
+}
+
+.section-meals {
+  padding: 0;
+}
+
+.section-features .long-copy {
+  margin-bottom: 30px;
 }
