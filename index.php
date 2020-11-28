@@ -139,21 +139,148 @@
             </div>
         </div>
     </section>
-    <footer class="footer"></footer>
 
+    <section class="section-cities">
+        <div class="row">
+            <h2>We're currently in these cities</h2>
+        </div>
+        <div class="row list-of-cities">
+            <div class="col span-1-of-4 cities-box">
+                <img src="images/lisbon-3.jpg" alt="cities-images" class="cities-img">
+                <h3>Lisbon</h3>
+                <div class="">
+                    <ion-icon name="person-circle-outline" class="section-cities-icon"></ion-icon>
+                    <p>1600+ happy eaters</p>
+                </div>
+                <div>
+                    <ion-icon name="star" class="section-cities-icon clearfix"></ion-icon>
+                    <p>60+ top chefs</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-twitter" class="section-cities-icon"></ion-icon>
+                    <p class="tweet-cities">@omnifood_lx</p>
+                </div>
+            </div>
+            <div class="col span-1-of-4 cities-box">
+                <img src="images/san-francisco.jpg" alt="cities-images" class="cities-img">
+                <h3>San Francisco</h3>
+                <div class="">
+                    <ion-icon name="person-circle-outline" class="section-cities-icon"></ion-icon>
+                    <p>3700+ happy eaters</p>
+                </div>
+                <div>
+                    <ion-icon name="star" class="section-cities-icon clearfix"></ion-icon>
+                    <p>160+ top chefs</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-twitter" class="section-cities-icon"></ion-icon>
+                    <p class="tweet-cities">@omnifood_sf</p>
+                </div>
+            </div>
+            <div class="col span-1-of-4 cities-box">
+                <img src="images/berlin.jpg" alt="cities-images" class="cities-img">
+                <h3>Berlin</h3>
+                <div class="">
+                    <ion-icon name="person-circle-outline" class="section-cities-icon"></ion-icon>
+                    <p>2300+ happy eaters</p>
+                </div>
+                <div>
+                    <ion-icon name="star" class="section-cities-icon clearfix"></ion-icon>
+                    <p>110+ top chefs</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-twitter" class="section-cities-icon"></ion-icon>
+                    <p class="tweet-cities">@omnifood_berlin</p>
+                </div>
+            </div>
+            <div class="col span-1-of-4 cities-box">
+                <img src="images/london.jpg" alt="cities-images" class="cities-img">
+                <h3>London</h3>
+                <div class="">
+                    <ion-icon name="person-circle-outline" class="section-cities-icon"></ion-icon>
+                    <p>1200+ happy eaters</p>
+                </div>
+                <div>
+                    <ion-icon name="star" class="section-cities-icon clearfix"></ion-icon>
+                    <p>50+ top chefs</p>
+                </div>
+                <div>
+                    <ion-icon name="logo-twitter" class="section-cities-icon"></ion-icon>
+                    <p class="tweet-cities">@omnifood_london</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-testimonials">
+        <div class="row">
+            <h2>Our customers can't live without us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3 customer-quotes-box">
+                <p class="idontwhat">"</p>
+                <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+                <cite><img src="images/customer-1.jpg" alt="">Alberto Ducan</cite>
+            </div>
+            <div class="col span-1-of-3 customer-quotes-box">
+                <p class="idontwhat">"</p>
+                <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+                <img src="images/customer-1.jpg" alt="">
+                <cite>Alberto Ducan</cite>
+            </div>
+            <div class="col span-1-of-3 customer-quotes-box">
+                <p class="idontwhat">"</p>
+                <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+                <img src="images/customer-1.jpg" alt="">
+                <cite>Alberto Ducan</cite>
+            </div>
+        </div>
+    </section>
+    <footer class="footer"></footer>
 </body>
 
 </html>
 
 
 <!-- 
-   Section 3: How it works
-Title: How it works - Simple as 1, 2, 3
 
-    1. Choose the subscription plan that best fits your needs and sign up today.
-    2. Order your delicious meal using our mobile app or website. Or you can even call us!
-    3. Enjoy your meal after less than 20 minutes. See you the next time!
+Section 4: Cities
+Title: We're currently in these cities
+
+Lisbon
+1600+ happy eaters
+60+ top chefs
+@omnifood_lx
+
+San Francisco
+3700+ happy eaters
+160+ top chefs
+@omnifood_sf
+
+Berlin
+2300+ happy eaters
+110+ top chefs
+@omnifood_berlin
+
+London
+1200+ happy eaters
+50+ top chefs
+@omnifood_london
 
 
-(see image numbers in the assets folder)
+
+
+Section 5: Customer testimonials
+Title: Our customers can't live without us
+
+Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+(Alberto Duncan)
+
+Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
+(Joana Silva)
+
+I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+(Milton Chapman)
+
+
  -->
