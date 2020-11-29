@@ -981,6 +981,7 @@ section {
 .cities-box h3 {
   margin: 3% 1%;
   font-size: 130%;
+  vertical-align: middle;
 }
 
 .section-cities-icon {
@@ -990,6 +991,7 @@ section {
   margin: auto 0px;
   /* margin-right: 5px; */
   text-align: center;
+  vertical-align: middle;
 }
 
 .cities-box div {
@@ -1011,23 +1013,36 @@ section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
+  /* height: 80vh; */
   color: white;
+  position: relative;
 }
 
-/* .section-testimonials h2 {
-  color: #fff;
-} */
-
-
-/* .customer-quotes-box p {
-  display: inline-block;
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
 }
 
-.idontwhat {
-  font-weight: bold;
-  font-size: 500%;
-  margin: 0;
-  padding: 0;
-  display: inline; */
-/* } */
+cite {
+  font-style: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+blockquote::before{
+  content: '\201C';
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  font-size:400% ;
+ 
+  display: block;
+}

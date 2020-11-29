@@ -212,27 +212,24 @@
         </div>
     </section>
 
-    <section class="customer-testimonials">
+    <section class="section-testimonials">
         <div class="row">
             <h2>Our customers can't live without us</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3 customer-quotes-box">
-                <p class="idontwhat">"</p>
                 <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
                 <cite><img src="images/customer-1.jpg" alt="">Alberto Ducan</cite>
             </div>
             <div class="col span-1-of-3 customer-quotes-box">
-                <p class="idontwhat">"</p>
                 <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
-                <img src="images/customer-1.jpg" alt="">
-                <cite>Alberto Ducan</cite>
+
+                <cite><img src="images/customer-1.jpg" alt="">Alberto Ducan</cite>
             </div>
             <div class="col span-1-of-3 customer-quotes-box">
-                <p class="idontwhat">"</p>
                 <blockquote class="long-copy">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
-                <img src="images/customer-1.jpg" alt="">
-                <cite>Alberto Ducan</cite>
+
+                <cite><img src="images/customer-1.jpg" alt="">Alberto Ducan</cite>
             </div>
         </div>
     </section>
