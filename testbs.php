@@ -16,22 +16,24 @@
         <?php
         // Quy trinh 4 buoc
         // B1: Connect database server
+        echo ("<p>khong the ket noi</p>");
         $conn = mysqli_connect('localhost', 'root','', 'music');
         if (!$conn) {
+            echo ("<p>khong the ket noi</p>");
             die('Khong the ket noi, khong the ket noi');
             exit();
         }
-
+        echo ("<p>khong the ket noi</p>");
         //B2: Khai bao truy van
-        $sql = "SELECT * FROM Users";
+        $sql = "SELECT * FROM users";
         $result = mysqli_query($conn, $sql);
 
         // B3. Xy ly ketqua
         $users = mysqli_fetch_all($result);
-        // echo "<pre class ='table'>";
-        //     echo print_r($users);
-        // echo "<pre>";
-
+        echo "<pre class ='table'>";
+            echo print_r($users);
+        echo "<pre>";
+        // echo print_r($result);
 
         echo "<div class ='container'>";
             echo "<table>";
