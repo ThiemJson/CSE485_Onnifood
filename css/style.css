@@ -1037,12 +1037,75 @@ cite img {
   vertical-align: middle;
 }
 
-blockquote::before{
-  content: '\201C';
+blockquote::before {
+  content: "\201C";
   position: absolute;
   top: 5px;
   left: 0px;
-  font-size:400% ;
- 
+  font-size: 400%;
+
   display: block;
 }
+
+.small-icon {
+  color: rgb(253, 152, 0);
+  padding: 5px;
+  vertical-align: middle;
+}
+
+/* section-plans */
+.section-plans {
+  background-color:  rgb(226, 226, 226)
+}
+
+.plan-box {
+  background-color: #ffff;
+  width: 90%;
+  border-radius: 5px;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+  padding: 15px;
+  border-bottom: 1px solid rgb(128, 77, 2);
+}
+
+
+.plan-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.plan-box div:last-child {
+  text-align: center;
+  border: none;
+  background-color: #fcfcfc;
+}
+
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: rgb(253, 152, 0);
+}
+
+.plan-price span {
+  font-size: 30%;
+  font-weight: 700;
+}
+
+.plan-price-meal {
+  font-size: 80%;
+  margin-bottom: 10px;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 5px 0;
+}
+

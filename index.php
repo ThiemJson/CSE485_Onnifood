@@ -233,6 +233,105 @@
             </div>
         </div>
     </section>
+
+    <section class="section-plans">
+        <div class="row">
+            <h2>Start eating healthy today</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Premium</h3>
+                        <p class="plan-price">$399 <span>/ month</span></p>
+                        <p class="plan-price-meal">That’s only 13.30$ per meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>1 meal every day
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>Order 24/7
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>
+                                Access to newest creations
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>
+                                Free delivery
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-full">SIGN UP NOW</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Pro</h3>
+                        <p class="plan-price">$149 <span>/ month</span></p>
+                        <p class="plan-price-meal">That’s only 14.90$ per meal</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>1 meal 10 days/month
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>Order 24/7
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>
+                                Access to newest creations
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>
+                                Free delivery
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">SIGN UP NOW</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="plan-box">
+                    <div>
+                        <h3>Starter</h3>
+                        <p class="plan-price">$19 <span>/ meal</span></p>
+                        <p class="plan-price-meal">&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>1 meal every day
+                            </li>
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>Order from 8 am to 12 pm
+                            </li>
+                            <li>
+                                <ion-icon name="close-sharp" class="small-icon"></ion-icon>
+                            </li>
+
+                            <li>
+                                <ion-icon name="checkmark-sharp" class="small-icon"></ion-icon>
+                                Free delivery
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn-ghost">SIGN UP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="footer"></footer>
 </body>
 
@@ -240,44 +339,55 @@
 
 
 <!-- 
+Section 6: Sign up and pricing plans
+Title: Start eating healthy today
 
-Section 4: Cities
-Title: We're currently in these cities
-
-Lisbon
-1600+ happy eaters
-60+ top chefs
-@omnifood_lx
-
-San Francisco
-3700+ happy eaters
-160+ top chefs
-@omnifood_sf
-
-Berlin
-2300+ happy eaters
-110+ top chefs
-@omnifood_berlin
-
-London
-1200+ happy eaters
-50+ top chefs
-@omnifood_london
+Plan 1: Premium
+399$ per month
+That’s only 13.30$ per meal
+1 meal every day
+Order 24/7
+Access to newest creations
+Free delivery
 
 
+Plan 2: Pro
+149$ per month
+That’s only 14.90$ per meal
+1 meal 10 days/month
+Order 24/7
+Access to newest creations
+Free delivery
 
 
-Section 5: Customer testimonials
-Title: Our customers can't live without us
+Plan 3: Starter
+19$ per meal
+1 meal
+Order from 8 am to 12 pm
+Free delivery
 
-Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-(Alberto Duncan)
+Section 7: Contact form
+Title: We're happy to hear from you
 
-Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-(Joana Silva)
+Fields to include:
+Name
+Email
+How did you find us?
+Newsletter
+Drop us a line
 
-I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-(Milton Chapman)
+Section 8: Footer
+Title: None
+
+Navigation:
+1. About us
+2. Blog
+3. Press
+4. iOS App
+5. Android App
+
+Also include links to facebook, twitter, google+ and Instagram accounts.
+
 
 
  -->
